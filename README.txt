@@ -2,7 +2,7 @@
 --                              Mast                                 --
 --     Modeling and Analysis Suite for Real-Time Applications        --
 --                                                                   --
---                       Copyright (C) 2000-2023                     --
+--                       Copyright (C) 2000-2024                     --
 --                 Universidad de Cantabria, SPAIN                   --
 --                                                                   --
 --                                                                   --
