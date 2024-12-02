@@ -1,0 +1,1 @@
+mast_analysis default -c -p /home/michael/prog/mast/examples/caseva_example.txt /home/michael/prog/mast/examples/caseva_example.out

@@ -1,0 +1,13 @@
+if  ! [ -a results/$2_$3_pa.txt  ]; then 
+
+echo "-----"
+echo testing $2 $1 "(w/ prio assignment)"
+date
+mast_analysis $1 -c -s -p $2.txt results/$2_$3_pa.txt
+echo " " >> test_report
+echo $"----------------------------------------------------------------------------" >> test_report
+echo "                          "$2 $1 "(w/ prio assignment)">> test_report
+diff -I Generation_ patterns/$2_$3_pa.txt results/$2_$3_pa.txt >> test_report
+echo " " >> test_report
+
+fi

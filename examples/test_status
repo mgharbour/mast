@@ -1,0 +1,2333 @@
+-----
+testing caseva_example classic_rm
+Fri Jan 23 10:35:34 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_example_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_simplified classic_rm
+Fri Jan 23 10:35:34 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_simplified_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_clock classic_rm
+Fri Jan 23 10:35:34 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_clock_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_timer classic_rm
+Fri Jan 23 10:35:34 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_timer_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller2 classic_rm
+Fri Jan 23 10:35:34 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller2_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_1_2_2 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_1_2_2_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_1 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_1_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_2 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_2_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_5_1 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_1_rm.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_5_3 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_3_rm.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_6_1 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_1_rm.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_6_3 classic_rm
+Fri Jan 23 10:35:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_3_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_7_1 classic_rm
+Fri Jan 23 10:35:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_7_1_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_5_10_3 classic_rm
+Fri Jan 23 10:35:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_3_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_9_3_4_trans classic_rm
+Fri Jan 23 10:35:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_9_3_4_trans_rm.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing lehoczky_example_3 classic_rm
+Fri Jan 23 10:35:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/lehoczky_example_3_rm.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing caseva_example varying_priorities
+Fri Jan 23 10:35:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_example_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_simplified varying_priorities
+Fri Jan 23 10:35:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_simplified_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_clock varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_clock_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_timer varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_timer_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller2 varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller2_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_1_2_2 varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_1_2_2_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_1 varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_1_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_2 varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_2_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_5_1 varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_1_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_5_3 varying_priorities
+Fri Jan 23 10:35:37 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_3_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_6_1 varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_1_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_6_3 varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_3_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_7_1 varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_7_1_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_4_9_2a varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_9_2a_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_1a varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_1a_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_2a varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_2a_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_3 varying_priorities
+Fri Jan 23 10:35:38 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_3_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_9_3_4_trans varying_priorities
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_9_3_4_trans_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_varying_priorities varying_priorities
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_varying_priorities_vp.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing lehoczky_example_3 varying_priorities
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/lehoczky_example_3_vp.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing caseva_example holistic
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_example_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_multi holistic
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_multi_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_simplified holistic
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_simplified_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_clock holistic
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_clock_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_timer holistic
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_timer_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller2 holistic
+Fri Jan 23 10:35:39 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller holistic
+Fri Jan 23 10:35:41 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_1_2_2 holistic
+Fri Jan 23 10:35:41 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_1_2_2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_1 holistic
+Fri Jan 23 10:35:41 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_1_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_2 holistic
+Fri Jan 23 10:35:41 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_5_1 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_1_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_5_2 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_5_3 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_3_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_5_4 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_4_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_6_1 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_1_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_6_2 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_6_3 holistic
+Fri Jan 23 10:35:42 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_3_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_6_4 holistic
+Fri Jan 23 10:35:43 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_4_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_7_1 holistic
+Fri Jan 23 10:35:43 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_7_1_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_4_8_1 holistic
+Fri Jan 23 10:35:45 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_8_1_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_4_8_2 holistic
+Fri Jan 23 10:35:45 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_8_2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_4_8_3 holistic
+Fri Jan 23 10:35:45 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_8_3_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_4_9_1 holistic
+Fri Jan 23 10:35:45 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_9_1_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_4_9_2 holistic
+Fri Jan 23 10:35:45 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_9_2_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_1 holistic
+Fri Jan 23 10:35:45 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_1_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_2 holistic
+Fri Jan 23 10:35:49 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_2_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_3 holistic
+Fri Jan 23 10:35:51 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_5_10_3_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_6_12 holistic
+Fri Jan 23 10:35:51 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_6_12_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_6_13 holistic
+Fri Jan 23 10:35:52 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_6_13_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_8_3_1 holistic
+Fri Jan 23 10:35:52 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_8_3_1_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_9_3_4_trans holistic
+Fri Jan 23 10:36:20 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_9_3_4_trans_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_with_delays holistic
+Fri Jan 23 10:36:20 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_with_delays_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_with_offsets holistic
+Fri Jan 23 10:36:21 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_with_offsets_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing jane_liu_section_9_5_2 holistic
+Fri Jan 23 10:36:21 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/jane_liu_section_9_5_2_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing jane_liu_table_9_2 holistic
+Fri Jan 23 10:36:25 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/jane_liu_table_9_2_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing lehoczky_example_3 holistic
+Fri Jan 23 10:36:25 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/lehoczky_example_3_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing linear_transactions_only holistic
+Fri Jan 23 10:36:25 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/linear_transactions_only_ho.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing rmt holistic
+Fri Jan 23 10:36:25 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/rmt_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing rtss_98 holistic
+Fri Jan 23 10:36:26 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/rtss_98_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing simple_linear holistic
+Fri Jan 23 10:36:26 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/simple_linear_ho.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing caseva_example offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing caseva_multi offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing caseva_simplified offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing caseva_with_clock offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing caseva_with_timer offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing controller2 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing controller offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_1_2_2 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_2_4_1 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_2_4_2 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_5_1 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_5_2 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_5_3 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_5_4 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_6_1 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_6_2 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_6_3 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_6_4 offset_based_unoptimized
+Fri Jan 23 10:36:26 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_5_3_7_1 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_4_8_1 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_4_8_2 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_4_8_3 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_4_9_1 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_4_9_2 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_5_10_1 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_5_10_2 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_5_10_3 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_6_12 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_6_6_13 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_8_3_1 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_9_3_4_trans offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_with_delays offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing example_with_offsets offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing jane_liu_section_9_5_2 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing jane_liu_table_9_2 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing lehoczky_example_3 offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing linear_transactions_only offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing rmt offset_based_unoptimized
+Fri Jan 23 10:36:27 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing rtss_98 offset_based_unoptimized
+Fri Jan 23 10:36:28 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing simple_linear offset_based_unoptimized
+Fri Jan 23 10:36:28 CET 2004
+Usage:
+    mast_analysis -help
+    mast_analysis tool_name [options] input_file [output_file]
+        tool_name:
+          parse
+          classic_rm
+          varying_priorities
+          holistic
+          edf_monoprocessor
+          edf_within_priorities
+          offset_based
+          offset_based_optimized
+
+        options:
+          -v, -verbose
+          -c, -ceilings
+          -p, -priorities
+          -t name, -technique name
+               name can be :hopa,annealing,monoprocessor,deadline_distribution
+          -d filename, -description filename
+          -s, -slack
+          -os name, -operation_slack name
+-----
+testing caseva_example offset_based
+Fri Jan 23 10:36:28 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_example_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_multi offset_based
+Fri Jan 23 10:36:28 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_multi_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_simplified offset_based
+Fri Jan 23 10:36:28 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_simplified_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_clock offset_based
+Fri Jan 23 10:36:28 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_clock_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing caseva_with_timer offset_based
+Fri Jan 23 10:36:28 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/caseva_with_timer_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller2 offset_based
+Fri Jan 23 10:36:28 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller2_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing controller offset_based
+Fri Jan 23 10:36:34 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/controller_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_1_2_2 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_1_2_2_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_1 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_1_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_2_4_2 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_2_4_2_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_5_1 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_1_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_5_2 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_2_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_5_3 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_3_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_5_4 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_5_4_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_6_1 offset_based
+Fri Jan 23 10:36:35 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_1_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_6_2 offset_based
+Fri Jan 23 10:36:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_2_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_6_3 offset_based
+Fri Jan 23 10:36:36 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_3_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_5_3_6_4 offset_based
+Fri Jan 23 10:36:40 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_6_4_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_5_3_7_1 offset_based
+Fri Jan 23 10:36:40 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_5_3_7_1_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_4_8_1 offset_based
+Fri Jan 23 10:36:46 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_8_1_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_4_8_2 offset_based
+Fri Jan 23 10:36:46 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_8_2_ob.txt
+The system is schedulable
+Final analysis status: DONE
+-----
+testing example_6_4_8_3 offset_based
+Fri Jan 23 10:36:46 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_8_3_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_4_9_1 offset_based
+Fri Jan 23 10:36:46 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_9_1_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_4_9_2 offset_based
+Fri Jan 23 10:36:46 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...
+Calculating Processing Resource Slacks...
+Calculating System Slack...
+Final invocation of the analysis tool...
+Printing results in file: results/example_6_4_9_2_ob.txt
+Timing requirements not met
+Final analysis status: NOT-SCHEDULABLE
+-----
+testing example_6_5_10_1 offset_based
+Fri Jan 23 10:36:46 CET 2004
+MAST Version: 1.3.5
+Parsing input file
+Calculating Ceilings
+Calculating Transaction Slacks...

@@ -1,0 +1,110 @@
+Real_Time_Situation (
+   Generation_Tool    => "MAST Schedulability Analysis, version 1.2.2",
+   Generation_Profile => "mast_analysis_stable offset_based -c -p -s example_6_4_8_2.txt patterns/example_6_4_8_2_ob_pa.txt",
+   Generation_Date    => 2004-01-23T18:04:01,
+   Results            => 
+       ((Type   => Slack,
+         Value  => 0.781250%)));
+
+Transaction (
+   Name     => t_1,
+   Results  => 
+       ((Type   => Slack,
+         Value  => 2.34%),
+        (Type                          => Timing_Result,
+         Event_Name                    => i1,
+         Num_Of_Suspensions            => 0,
+         Worst_Blocking_Time           => 0.00,
+         Worst_Global_Response_Times   => 
+            ((Referenced_Event => e1,
+              Time_Value       => 0.600000)),
+         Best_Global_Response_Times    => 
+            ((Referenced_Event => e1,
+              Time_Value       => 0.00)),
+         Jitters                       => 
+            ((Referenced_Event => e1,
+              Time_Value       => 0.600000))),
+        (Type                          => Timing_Result,
+         Event_Name                    => o1,
+         Num_Of_Suspensions            => 0,
+         Worst_Blocking_Time           => 0.00,
+         Worst_Global_Response_Times   => 
+            ((Referenced_Event => e1,
+              Time_Value       => 41.60)),
+         Best_Global_Response_Times    => 
+            ((Referenced_Event => e1,
+              Time_Value       => 0.00)),
+         Jitters                       => 
+            ((Referenced_Event => e1,
+              Time_Value       => 41.60)))));
+
+Transaction (
+   Name     => t_2,
+   Results  => 
+       ((Type   => Slack,
+         Value  => 3.13%),
+        (Type                          => Timing_Result,
+         Event_Name                    => i21,
+         Num_Of_Suspensions            => 0,
+         Worst_Blocking_Time           => 0.00,
+         Worst_Global_Response_Times   => 
+            ((Referenced_Event => e2,
+              Time_Value       => 2.60)),
+         Best_Global_Response_Times    => 
+            ((Referenced_Event => e2,
+              Time_Value       => 0.200000)),
+         Jitters                       => 
+            ((Referenced_Event => e2,
+              Time_Value       => 2.40))),
+        (Type                          => Timing_Result,
+         Event_Name                    => o2,
+         Num_Of_Suspensions            => 0,
+         Worst_Blocking_Time           => 0.00,
+         Worst_Global_Response_Times   => 
+            ((Referenced_Event => e2,
+              Time_Value       => 147.80)),
+         Best_Global_Response_Times    => 
+            ((Referenced_Event => e2,
+              Time_Value       => 0.200000)),
+         Jitters                       => 
+            ((Referenced_Event => e2,
+              Time_Value       => 147.60)))));
+
+Transaction (
+   Name     => t_3,
+   Results  => 
+       ((Type   => Slack,
+         Value  => 51.56%),
+        (Type                          => Timing_Result,
+         Event_Name                    => i3,
+         Num_Of_Suspensions            => 0,
+         Worst_Blocking_Time           => 0.00,
+         Worst_Global_Response_Times   => 
+            ((Referenced_Event => e3,
+              Time_Value       => 0.600000)),
+         Best_Global_Response_Times    => 
+            ((Referenced_Event => e3,
+              Time_Value       => 0.00)),
+         Jitters                       => 
+            ((Referenced_Event => e3,
+              Time_Value       => 0.600000))),
+        (Type                          => Timing_Result,
+         Event_Name                    => o3,
+         Num_Of_Suspensions            => 0,
+         Worst_Blocking_Time           => 0.00,
+         Worst_Global_Response_Times   => 
+            ((Referenced_Event => e3,
+              Time_Value       => 283.20)),
+         Best_Global_Response_Times    => 
+            ((Referenced_Event => e3,
+              Time_Value       => 0.00)),
+         Jitters                       => 
+            ((Referenced_Event => e3,
+              Time_Value       => 283.20)))));
+
+Processing_Resource (
+   Name     => cpu_1,
+   Results  => 
+       ((Type   => Slack,
+         Value  => 1.58%)));
+

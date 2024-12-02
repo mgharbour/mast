@@ -1,0 +1,566 @@
+Initializing error report...
+ 1   Model (
+ 2      Model_Name          => caseva,
+ 3      Model_Date          => 2000-01-01T00:00:00,
+ 4      System_Pip_Behaviour=> STRICT);
+ 6   Processing_Resource (
+ 7      Type                   => Regular_Processor,
+ 8      Name                   => processor_1,
+ 9      Max_Interrupt_Priority => 32767,
+ 10     Min_Interrupt_Priority => 1,
+ 11     Worst_ISR_Switch       => 0.00,
+ 12     Avg_ISR_Switch         => 0.00,
+ 13     Best_ISR_Switch        => 0.00,
+ 14     Speed_Factor           => 1.00);
+ 16  Scheduler (
+ 17     Type            => Primary_Scheduler,
+ 18     Name            => processor_1,
+ 19     Host            => processor_1,
+ 20     Policy          => 
+ 21        ( Type                 => Fixed_Priority,
+ 22          Worst_Context_Switch => 102.50,
+ 23          Avg_Context_Switch   => 0.00,
+ 24          Best_Context_Switch  => 0.00,
+ 25          Max_Priority         => 32767,
+ 26          Min_Priority         => 1));
+ 28  Scheduling_Server (
+ 29     Type                       => Regular,
+ 30     Name                       => servo_control,
+ 31     Server_Sched_Parameters    => 
+ 32        ( Type         => Fixed_Priority_Policy,
+ 33          The_Priority => 415,
+ 34          Preassigned  => NO),
+ 35     Scheduler                  => processor_1);
+ 37  Scheduling_Server (
+ 38     Type                       => Regular,
+ 39     Name                       => trajectory_planning,
+ 40     Server_Sched_Parameters    => 
+ 41        ( Type         => Fixed_Priority_Policy,
+ 42          The_Priority => 412,
+ 43          Preassigned  => NO),
+ 44     Scheduler                  => processor_1);
+ 46  Scheduling_Server (
+ 47     Type                       => Regular,
+ 48     Name                       => light_manager,
+ 49     Server_Sched_Parameters    => 
+ 50        ( Type         => Fixed_Priority_Policy,
+ 51          The_Priority => 410,
+ 52          Preassigned  => NO),
+ 53     Scheduler                  => processor_1);
+ 55  Scheduling_Server (
+ 56     Type                       => Regular,
+ 57     Name                       => reporter,
+ 58     Server_Sched_Parameters    => 
+ 59        ( Type         => Fixed_Priority_Policy,
+ 60          The_Priority => 80,
+ 61          Preassigned  => NO),
+ 62     Scheduler                  => processor_1);
+ 64  Scheduling_Server (
+ 65     Type                       => Regular,
+ 66     Name                       => message_logger,
+ 67     Server_Sched_Parameters    => 
+ 68        ( Type         => Fixed_Priority_Policy,
+ 69          The_Priority => 70,
+ 70          Preassigned  => NO),
+ 71     Scheduler                  => processor_1);
+ 73  Shared_Resource (
+ 74     Type        => Immediate_Ceiling_Resource,
+ 75     Name        => servo_data,
+ 76     Ceiling     => 32767,
+ 77     Preassigned => NO);
+ 79  Shared_Resource (
+ 80     Type        => Immediate_Ceiling_Resource,
+ 81     Name        => arm,
+ 82     Ceiling     => 32767,
+ 83     Preassigned => NO);
+ 85  Shared_Resource (
+ 86     Type        => Immediate_Ceiling_Resource,
+ 87     Name        => lights,
+ 88     Ceiling     => 32767,
+ 89     Preassigned => NO);
+ 91  Shared_Resource (
+ 92     Type        => Immediate_Ceiling_Resource,
+ 93     Name        => alarms,
+ 94     Ceiling     => 32767,
+ 95     Preassigned => NO);
+ 97  Shared_Resource (
+ 98     Type        => Immediate_Ceiling_Resource,
+ 99     Name        => position_command,
+ 100    Ceiling     => 32767,
+ 101    Preassigned => NO);
+ 103 Shared_Resource (
+ 104    Type        => Immediate_Ceiling_Resource,
+ 105    Name        => error_log,
+ 106    Ceiling     => 32767,
+ 107    Preassigned => NO);
+ 109 Operation (
+ 110    Type                       => Simple,
+ 111    Name                       => read_new_point,
+ 112    Worst_Case_Execution_Time  => 87.00,
+ 113    Avg_Case_Execution_Time    => 1.000E+100,
+ 114    Best_Case_Execution_Time   => 0.00,
+ 115    Shared_Resources_To_Lock   => 
+ 116       ( servo_data),
+ 117    Shared_Resources_To_Unlock => 
+ 118       ( servo_data));
+ 120 Operation (
+ 121    Type                       => Simple,
+ 122    Name                       => write_position_errors,
+ 123    Worst_Case_Execution_Time  => 42.00,
+ 124    Avg_Case_Execution_Time    => 1.000E+100,
+ 125    Best_Case_Execution_Time   => 0.00,
+ 126    Shared_Resources_To_Lock   => 
+ 127       ( servo_data),
+ 128    Shared_Resources_To_Unlock => 
+ 129       ( servo_data));
+ 131 Operation (
+ 132    Type                       => Simple,
+ 133    Name                       => new_point,
+ 134    Worst_Case_Execution_Time  => 54.00,
+ 135    Avg_Case_Execution_Time    => 1.000E+100,
+ 136    Best_Case_Execution_Time   => 0.00,
+ 137    Shared_Resources_To_Lock   => 
+ 138       ( servo_data),
+ 139    Shared_Resources_To_Unlock => 
+ 140       ( servo_data));
+ 142 Operation (
+ 143    Type                       => Simple,
+ 144    Name                       => read_errors,
+ 145    Worst_Case_Execution_Time  => 47.00,
+ 146    Avg_Case_Execution_Time    => 1.000E+100,
+ 147    Best_Case_Execution_Time   => 0.00,
+ 148    Shared_Resources_To_Lock   => 
+ 149       ( servo_data),
+ 150    Shared_Resources_To_Unlock => 
+ 151       ( servo_data));
+ 153 Operation (
+ 154    Type                       => Simple,
+ 155    Name                       => read_axis_positions,
+ 156    Worst_Case_Execution_Time  => 135.00,
+ 157    Avg_Case_Execution_Time    => 1.000E+100,
+ 158    Best_Case_Execution_Time   => 0.00,
+ 159    Shared_Resources_To_Lock   => 
+ 160       ( arm),
+ 161    Shared_Resources_To_Unlock => 
+ 162       ( arm));
+ 164 Operation (
+ 165    Type                       => Simple,
+ 166    Name                       => read_motor_positions,
+ 167    Worst_Case_Execution_Time  => 101.00,
+ 168    Avg_Case_Execution_Time    => 1.000E+100,
+ 169    Best_Case_Execution_Time   => 0.00,
+ 170    Shared_Resources_To_Lock   => 
+ 171       ( arm),
+ 172    Shared_Resources_To_Unlock => 
+ 173       ( arm));
+ 175 Operation (
+ 176    Type                       => Simple,
+ 177    Name                       => read_servos_ok,
+ 178    Worst_Case_Execution_Time  => 66.00,
+ 179    Avg_Case_Execution_Time    => 1.000E+100,
+ 180    Best_Case_Execution_Time   => 0.00,
+ 181    Shared_Resources_To_Lock   => 
+ 182       ( arm),
+ 183    Shared_Resources_To_Unlock => 
+ 184       ( arm));
+ 186 Operation (
+ 187    Type                       => Simple,
+ 188    Name                       => read_relay,
+ 189    Worst_Case_Execution_Time  => 43.00,
+ 190    Avg_Case_Execution_Time    => 1.000E+100,
+ 191    Best_Case_Execution_Time   => 0.00,
+ 192    Shared_Resources_To_Lock   => 
+ 193       ( arm),
+ 194    Shared_Resources_To_Unlock => 
+ 195       ( arm));
+ 197 Operation (
+ 198    Type                       => Simple,
+ 199    Name                       => set_relay,
+ 200    Worst_Case_Execution_Time  => 62.00,
+ 201    Avg_Case_Execution_Time    => 1.000E+100,
+ 202    Best_Case_Execution_Time   => 0.00,
+ 203    Shared_Resources_To_Lock   => 
+ 204       ( arm),
+ 205    Shared_Resources_To_Unlock => 
+ 206       ( arm));
+ 208 Operation (
+ 209    Type                       => Simple,
+ 210    Name                       => control_servos,
+ 211    Worst_Case_Execution_Time  => 99.00,
+ 212    Avg_Case_Execution_Time    => 1.000E+100,
+ 213    Best_Case_Execution_Time   => 0.00,
+ 214    Shared_Resources_To_Lock   => 
+ 215       ( arm),
+ 216    Shared_Resources_To_Unlock => 
+ 217       ( arm));
+ 219 Operation (
+ 220    Type                       => Simple,
+ 221    Name                       => turn_on,
+ 222    Worst_Case_Execution_Time  => 74.00,
+ 223    Avg_Case_Execution_Time    => 1.000E+100,
+ 224    Best_Case_Execution_Time   => 0.00,
+ 225    Shared_Resources_To_Lock   => 
+ 226       ( lights),
+ 227    Shared_Resources_To_Unlock => 
+ 228       ( lights));
+ 230 Operation (
+ 231    Type                       => Simple,
+ 232    Name                       => turn_off,
+ 233    Worst_Case_Execution_Time  => 71.00,
+ 234    Avg_Case_Execution_Time    => 1.000E+100,
+ 235    Best_Case_Execution_Time   => 0.00,
+ 236    Shared_Resources_To_Lock   => 
+ 237       ( lights),
+ 238    Shared_Resources_To_Unlock => 
+ 239       ( lights));
+ 241 Operation (
+ 242    Type                       => Simple,
+ 243    Name                       => turn_on_timed,
+ 244    Worst_Case_Execution_Time  => 74.00,
+ 245    Avg_Case_Execution_Time    => 1.000E+100,
+ 246    Best_Case_Execution_Time   => 0.00,
+ 247    Shared_Resources_To_Lock   => 
+ 248       ( lights),
+ 249    Shared_Resources_To_Unlock => 
+ 250       ( lights));
+ 252 Operation (
+ 253    Type                       => Simple,
+ 254    Name                       => turn_on_flashing,
+ 255    Worst_Case_Execution_Time  => 125.00,
+ 256    Avg_Case_Execution_Time    => 1.000E+100,
+ 257    Best_Case_Execution_Time   => 0.00,
+ 258    Shared_Resources_To_Lock   => 
+ 259       ( lights),
+ 260    Shared_Resources_To_Unlock => 
+ 261       ( lights));
+ 263 Operation (
+ 264    Type                       => Simple,
+ 265    Name                       => turn_on_timed_flashing,
+ 266    Worst_Case_Execution_Time  => 114.00,
+ 267    Avg_Case_Execution_Time    => 1.000E+100,
+ 268    Best_Case_Execution_Time   => 0.00,
+ 269    Shared_Resources_To_Lock   => 
+ 270       ( lights),
+ 271    Shared_Resources_To_Unlock => 
+ 272       ( lights));
+ 274 Operation (
+ 275    Type                       => Simple,
+ 276    Name                       => start_lights_test,
+ 277    Worst_Case_Execution_Time  => 212.00,
+ 278    Avg_Case_Execution_Time    => 1.000E+100,
+ 279    Best_Case_Execution_Time   => 0.00,
+ 280    Shared_Resources_To_Lock   => 
+ 281       ( lights),
+ 282    Shared_Resources_To_Unlock => 
+ 283       ( lights));
+ 285 Operation (
+ 286    Type                       => Simple,
+ 287    Name                       => end_lights_test,
+ 288    Worst_Case_Execution_Time  => 217.00,
+ 289    Avg_Case_Execution_Time    => 1.000E+100,
+ 290    Best_Case_Execution_Time   => 0.00,
+ 291    Shared_Resources_To_Lock   => 
+ 292       ( lights),
+ 293    Shared_Resources_To_Unlock => 
+ 294       ( lights));
+ 296 Operation (
+ 297    Type                       => Simple,
+ 298    Name                       => time_lights,
+ 299    Worst_Case_Execution_Time  => 119.00,
+ 300    Avg_Case_Execution_Time    => 1.000E+100,
+ 301    Best_Case_Execution_Time   => 0.00,
+ 302    Shared_Resources_To_Lock   => 
+ 303       ( lights),
+ 304    Shared_Resources_To_Unlock => 
+ 305       ( lights));
+ 307 Operation (
+ 308    Type                       => Simple,
+ 309    Name                       => read,
+ 310    Worst_Case_Execution_Time  => 64.00,
+ 311    Avg_Case_Execution_Time    => 1.000E+100,
+ 312    Best_Case_Execution_Time   => 0.00,
+ 313    Shared_Resources_To_Lock   => 
+ 314       ( alarms),
+ 315    Shared_Resources_To_Unlock => 
+ 316       ( alarms));
+ 318 Operation (
+ 319    Type                       => Simple,
+ 320    Name                       => read_all_alarms,
+ 321    Worst_Case_Execution_Time  => 78.00,
+ 322    Avg_Case_Execution_Time    => 1.000E+100,
+ 323    Best_Case_Execution_Time   => 0.00,
+ 324    Shared_Resources_To_Lock   => 
+ 325       ( alarms),
+ 326    Shared_Resources_To_Unlock => 
+ 327       ( alarms));
+ 329 Operation (
+ 330    Type                       => Simple,
+ 331    Name                       => set,
+ 332    Worst_Case_Execution_Time  => 59.00,
+ 333    Avg_Case_Execution_Time    => 1.000E+100,
+ 334    Best_Case_Execution_Time   => 0.00,
+ 335    Shared_Resources_To_Lock   => 
+ 336       ( alarms),
+ 337    Shared_Resources_To_Unlock => 
+ 338       ( alarms));
+ 340 Operation (
+ 341    Type                       => Simple,
+ 342    Name                       => acknowledge,
+ 343    Worst_Case_Execution_Time  => 60.00,
+ 344    Avg_Case_Execution_Time    => 1.000E+100,
+ 345    Best_Case_Execution_Time   => 0.00,
+ 346    Shared_Resources_To_Lock   => 
+ 347       ( alarms),
+ 348    Shared_Resources_To_Unlock => 
+ 349       ( alarms));
+ 351 Operation (
+ 352    Type                       => Simple,
+ 353    Name                       => reset,
+ 354    Worst_Case_Execution_Time  => 60.00,
+ 355    Avg_Case_Execution_Time    => 1.000E+100,
+ 356    Best_Case_Execution_Time   => 0.00,
+ 357    Shared_Resources_To_Lock   => 
+ 358       ( alarms),
+ 359    Shared_Resources_To_Unlock => 
+ 360       ( alarms));
+ 362 Operation (
+ 363    Type                       => Simple,
+ 364    Name                       => insert_error,
+ 365    Worst_Case_Execution_Time  => 79.00,
+ 366    Avg_Case_Execution_Time    => 1.000E+100,
+ 367    Best_Case_Execution_Time   => 0.00,
+ 368    Shared_Resources_To_Lock   => 
+ 369       ( alarms),
+ 370    Shared_Resources_To_Unlock => 
+ 371       ( alarms));
+ 373 Operation (
+ 374    Type                       => Simple,
+ 375    Name                       => get_error,
+ 376    Worst_Case_Execution_Time  => 72.00,
+ 377    Avg_Case_Execution_Time    => 1.000E+100,
+ 378    Best_Case_Execution_Time   => 0.00,
+ 379    Shared_Resources_To_Lock   => 
+ 380       ( alarms),
+ 381    Shared_Resources_To_Unlock => 
+ 382       ( alarms));
+ 384 Operation (
+ 385    Type                       => Simple,
+ 386    Name                       => read_position_command,
+ 387    Worst_Case_Execution_Time  => 47.00,
+ 388    Avg_Case_Execution_Time    => 1.000E+100,
+ 389    Best_Case_Execution_Time   => 0.00,
+ 390    Shared_Resources_To_Lock   => 
+ 391       ( position_command),
+ 392    Shared_Resources_To_Unlock => 
+ 393       ( position_command));
+ 395 Operation (
+ 396    Type                       => Simple,
+ 397    Name                       => write_position_command,
+ 398    Worst_Case_Execution_Time  => 42.00,
+ 399    Avg_Case_Execution_Time    => 1.000E+100,
+ 400    Best_Case_Execution_Time   => 0.00,
+ 401    Shared_Resources_To_Lock   => 
+ 402       ( position_command),
+ 403    Shared_Resources_To_Unlock => 
+ 404       ( position_command));
+ 406 Operation (
+ 407    Type                       => Simple,
+ 408    Name                       => notify_error,
+ 409    Worst_Case_Execution_Time  => 85.00,
+ 410    Avg_Case_Execution_Time    => 1.000E+100,
+ 411    Best_Case_Execution_Time   => 0.00,
+ 412    Shared_Resources_To_Lock   => 
+ 413       ( error_log),
+ 414    Shared_Resources_To_Unlock => 
+ 415       ( error_log));
+ 417 Operation (
+ 418    Type                       => Simple,
+ 419    Name                       => get_error_from_queue,
+ 420    Worst_Case_Execution_Time  => 79.00,
+ 421    Avg_Case_Execution_Time    => 1.000E+100,
+ 422    Best_Case_Execution_Time   => 0.00,
+ 423    Shared_Resources_To_Lock   => 
+ 424       ( error_log),
+ 425    Shared_Resources_To_Unlock => 
+ 426       ( error_log));
+ 428 Operation (
+ 429    Type                     => Enclosing,
+ 430    Name                     => servo_control,
+ 431    Worst_Case_Execution_Time=> 1080.0,
+ 432    Avg_Case_Execution_Time  => 1.000E+100,
+ 433    Best_Case_Execution_Time => 0.00,
+ 434    Composite_Operation_List => 
+ 435       ( read_new_point,
+ 436         write_position_errors,
+ 437         read_axis_positions,
+ 438         read_servos_ok,
+ 439         set_relay,
+ 440         control_servos,
+ 441         read,
+ 442         read_all_alarms,
+ 443         set,
+ 444         acknowledge,
+ 445         reset,
+ 446         insert_error));
+ 448 Operation (
+ 449    Type                     => Enclosing,
+ 450    Name                     => trajectory_planning,
+ 451    Worst_Case_Execution_Time=> 9045.0,
+ 452    Avg_Case_Execution_Time  => 1.000E+100,
+ 453    Best_Case_Execution_Time => 0.00,
+ 454    Composite_Operation_List => 
+ 455       ( new_point,
+ 456         turn_on,
+ 457         turn_off,
+ 458         turn_on_timed,
+ 459         turn_on_flashing,
+ 460         turn_on_timed_flashing,
+ 461         start_lights_test,
+ 462         end_lights_test,
+ 463         read,
+ 464         read_all_alarms,
+ 465         set,
+ 466         acknowledge,
+ 467         reset,
+ 468         insert_error,
+ 469         get_error,
+ 470         write_position_command,
+ 471         notify_error));
+ 473 Operation (
+ 474    Type                     => Enclosing,
+ 475    Name                     => light_manager,
+ 476    Worst_Case_Execution_Time=> 119.00,
+ 477    Avg_Case_Execution_Time  => 1.000E+100,
+ 478    Best_Case_Execution_Time => 0.00,
+ 479    Composite_Operation_List => 
+ 480       ( time_lights,
+ 481         insert_error));
+ 483 Operation (
+ 484    Type                     => Enclosing,
+ 485    Name                     => reporter,
+ 486    Worst_Case_Execution_Time=> 72952.0,
+ 487    Avg_Case_Execution_Time  => 1.000E+100,
+ 488    Best_Case_Execution_Time => 0.00,
+ 489    Composite_Operation_List => 
+ 490       ( read_errors,
+ 491         read_axis_positions,
+ 492         read_servos_ok,
+ 493         read_relay,
+ 494         read,
+ 495         read_all_alarms,
+ 496         read_position_command));
+ 498 Operation (
+ 499    Type                     => Enclosing,
+ 500    Name                     => message_logger,
+ 501    Worst_Case_Execution_Time=> 46820.0,
+ 502    Avg_Case_Execution_Time  => 1.000E+100,
+ 503    Best_Case_Execution_Time => 0.00,
+ 504    Composite_Operation_List => 
+ 505       ( get_error_from_queue));
+ 507 Transaction (
+ 508    Type            => regular,
+ 509    Name            => servo_control,
+ 510    External_Events => 
+ 511       ( ( Type       => Periodic,
+ 512           Name       => e1,
+ 513           Period     => 5000.00,
+ 514           Max_Jitter => 0.000,
+ 515           Phase      => 0.000)),
+ 516    Internal_Events => 
+ 517       ( ( Type => Regular,
+ 518           Name => o1,
+ 519           Timing_Requirements => 
+ 520             ( Type             => Hard_Global_Deadline,
+ 521               Deadline         => 5000.00,
+ 522               Referenced_Event => e1))),
+ 523    Event_Handlers  => 
+ 524       ( (Type               => Activity,
+ 525          Input_Event        => e1,
+ 526          Output_Event       => o1,
+ 527          Activity_Operation => servo_control,
+ 528          Activity_Server    => servo_control)));
+ 530 Transaction (
+ 531    Type            => regular,
+ 532    Name            => trajectory_planning,
+ 533    External_Events => 
+ 534       ( ( Type       => Periodic,
+ 535           Name       => e2,
+ 536           Period     => 50000.00,
+ 537           Max_Jitter => 0.000,
+ 538           Phase      => 0.000)),
+ 539    Internal_Events => 
+ 540       ( ( Type => Regular,
+ 541           Name => o2,
+ 542           Timing_Requirements => 
+ 543             ( Type             => Hard_Global_Deadline,
+ 544               Deadline         => 50000.00,
+ 545               Referenced_Event => e2))),
+ 546    Event_Handlers  => 
+ 547       ( (Type               => Activity,
+ 548          Input_Event        => e2,
+ 549          Output_Event       => o2,
+ 550          Activity_Operation => trajectory_planning,
+ 551          Activity_Server    => trajectory_planning)));
+ 553 Transaction (
+ 554    Type            => regular,
+ 555    Name            => light_manager,
+ 556    External_Events => 
+ 557       ( ( Type       => Periodic,
+ 558           Name       => e3,
+ 559           Period     => 100000.00,
+ 560           Max_Jitter => 0.000,
+ 561           Phase      => 0.000)),
+ 562    Internal_Events => 
+ 563       ( ( Type => Regular,
+ 564           Name => o3,
+ 565           Timing_Requirements => 
+ 566             ( Type             => Hard_Global_Deadline,
+ 567               Deadline         => 100000.00,
+ 568               Referenced_Event => e3))),
+ 569    Event_Handlers  => 
+ 570       ( (Type               => Activity,
+ 571          Input_Event        => e3,
+ 572          Output_Event       => o3,
+ 573          Activity_Operation => light_manager,
+ 574          Activity_Server    => light_manager)));
+ 576 Transaction (
+ 577    Type            => regular,
+ 578    Name            => reporter,
+ 579    External_Events => 
+ 580       ( ( Type       => Periodic,
+ 581           Name       => e4,
+ 582           Period     => 1000000.00,
+ 583           Max_Jitter => 0.000,
+ 584           Phase      => 0.000)),
+ 585    Internal_Events => 
+ 586       ( ( Type => Regular,
+ 587           Name => o4,
+ 588           Timing_Requirements => 
+ 589             ( Type             => Hard_Global_Deadline,
+ 590               Deadline         => 1000000.00,
+ 591               Referenced_Event => e4))),
+ 592    Event_Handlers  => 
+ 593       ( (Type               => Activity,
+ 594          Input_Event        => e4,
+ 595          Output_Event       => o4,
+ 596          Activity_Operation => reporter,
+ 597          Activity_Server    => reporter)));
+ 599 Transaction (
+ 600    Type            => regular,
+ 601    Name            => message_logger,
+ 602    External_Events => 
+ 603       ( ( Type             => Unbounded,
+ 604           Name             => e5,
+ 605           Avg_Interarrival => 1000000.00,
+ 606           Distribution     => UNIFORM)),
+ 607    Internal_Events => 
+ 608       ( ( Type => Regular,
+ 609           Name => o5)),
+ 610    Event_Handlers  => 
+ 611       ( (Type               => Activity,
+ 612          Input_Event        => e5,
+ 613          Output_Event       => o5,
+ 614          Activity_Operation => message_logger,
+ 615          Activity_Server    => message_logger)));
+ 616 
+

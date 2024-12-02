@@ -1,0 +1,94 @@
+Initializing error report...
+ 1   Real_Time_Situation (
+ 2      Model_Name         => caseva,
+ 3      Model_Date         => 2000-01-01T00:00:00,
+ 4      Generation_Tool    => "MAST Schedulability Analysis, version 1.6.0.0",
+ 5      Generation_Profile => "mast_analysis default -c -p /home/michael/prog/mast/examples/caseva_example.txt /home/michael/prog/mast/examples/caseva_example.out",
+ 6      Generation_Date    => 2024-11-19T13:40:59);
+ 8   Transaction (
+ 9      Name     => servo_control,
+ 10     Results  => 
+ 11         ((Type                          => Timing_Result,
+ 12           Event_Name                    => o1,
+ 13           Num_Of_Suspensions            => 0,
+ 14           Worst_Blocking_Time           => 135.000,
+ 15           Worst_Global_Response_Times   => 
+ 16              ((Referenced_Event => e1,
+ 17                Time_Value       => 1420.00)),
+ 18           Best_Global_Response_Times    => 
+ 19              ((Referenced_Event => e1,
+ 20                Time_Value       => 0.000)),
+ 21           Jitters                       => 
+ 22              ((Referenced_Event => e1,
+ 23                Time_Value       => 1420.00)))));
+ 25  Transaction (
+ 26     Name     => trajectory_planning,
+ 27     Results  => 
+ 28         ((Type                          => Timing_Result,
+ 29           Event_Name                    => o2,
+ 30           Num_Of_Suspensions            => 0,
+ 31           Worst_Blocking_Time           => 135.000,
+ 32           Worst_Global_Response_Times   => 
+ 33              ((Referenced_Event => e2,
+ 34                Time_Value       => 13240.00)),
+ 35           Best_Global_Response_Times    => 
+ 36              ((Referenced_Event => e2,
+ 37                Time_Value       => 0.000)),
+ 38           Jitters                       => 
+ 39              ((Referenced_Event => e2,
+ 40                Time_Value       => 13240.00)))));
+ 42  Transaction (
+ 43     Name     => light_manager,
+ 44     Results  => 
+ 45         ((Type                          => Timing_Result,
+ 46           Event_Name                    => o3,
+ 47           Num_Of_Suspensions            => 0,
+ 48           Worst_Blocking_Time           => 135.000,
+ 49           Worst_Global_Response_Times   => 
+ 50              ((Referenced_Event => e3,
+ 51                Time_Value       => 13564.00)),
+ 52           Best_Global_Response_Times    => 
+ 53              ((Referenced_Event => e3,
+ 54                Time_Value       => 0.000)),
+ 55           Jitters                       => 
+ 56              ((Referenced_Event => e3,
+ 57                Time_Value       => 13564.00)))));
+ 59  Transaction (
+ 60     Name     => reporter,
+ 61     Results  => 
+ 62         ((Type                          => Timing_Result,
+ 63           Event_Name                    => o4,
+ 64           Num_Of_Suspensions            => 0,
+ 65           Worst_Blocking_Time           => 79.000,
+ 66           Worst_Global_Response_Times   => 
+ 67              ((Referenced_Event => e4,
+ 68                Time_Value       => 137614.00)),
+ 69           Best_Global_Response_Times    => 
+ 70              ((Referenced_Event => e4,
+ 71                Time_Value       => 0.000)),
+ 72           Jitters                       => 
+ 73              ((Referenced_Event => e4,
+ 74                Time_Value       => 137614.00)))));
+ 76  Transaction (
+ 77     Name     => message_logger,
+ 78     Results  => 
+ 79         ((Type                          => Timing_Result,
+ 80           Event_Name                    => o5,
+ 81           Num_Of_Suspensions            => 0,
+ 82           Worst_Blocking_Time           => 0.000,
+ 83           Worst_Global_Response_Times   => 
+ 84              ((Referenced_Event => e5,
+ 85                Time_Value       => 1.000E+100)),
+ 86           Best_Global_Response_Times    => 
+ 87              ((Referenced_Event => e5,
+ 88                Time_Value       => 0.000)),
+ 89           Jitters                       => 
+ 90              ((Referenced_Event => e5,
+ 91                Time_Value       => 1.000E+100)))));
+ 93  Processing_Resource (
+ 94     Name     => processor_1,
+ 95     Results  => 
+ 96         ((Type   => Utilization,
+ 97           Total  => 51.84%)));
+ 98  
+
