@@ -1,0 +1,2 @@
+last_build_profile = "gnat_native=RELEASE,gtkada=RELEASE,libgtk3=RELEASE,make=RELEASE,mast=DEVELOPMENT,pkg_config=RELEASE,xmlada=RELEASE"
+

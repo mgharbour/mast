@@ -1,0 +1,6 @@
+dependency:gtkada=25.0.1=97a94b98c977366ab88bcc61398b89819b47808c7bde0b5c0bf68da8797aaebd
+dependency:xmlada=25.0.0=491f4fc1c53e9962115b4d147015304630bb0fe17452e174cc1c07e3972f8d1e
+external:LIBRARY_TYPE=default
+external:MAST_LIBRARY_TYPE=default
+profile:mast=DEVELOPMENT
+switches:mast=-Og,-fdata-sections,-ffunction-sections,-g,-gnatVa,-gnatW8,-gnatw.X,-gnatwa,-gnaty-d,-gnaty3,-gnatyA,-gnatyB,-gnatyI,-gnatyO,-gnatyS,-gnatya,-gnatyb,-gnatyc,-gnatye,-gnatyf,-gnatyh,-gnatyi,-gnatyk,-gnatyl,-gnatym,-gnatyn,-gnatyp,-gnatyr,-gnatyt,-gnatyu,-gnatyx
